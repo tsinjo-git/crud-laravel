@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: blueviolet;
+}
+.our-blog {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+  }
+  .single-article {
+    box-shadow: 0 0 5px #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .myblog {
+    text-decoration: none;
+    color: inherit;
+  }
+  .button-action {
+    display: flex;
+    gap: 10px;
+  }
+  .btnbtn {
+    text-decoration: none;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding: 5px;
+    cursor: pointer;
+  }
