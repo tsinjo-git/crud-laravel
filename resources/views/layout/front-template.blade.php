@@ -13,6 +13,8 @@
             <ul>
                 <li><a href="{{ URL::to('/') }}">Articles</a></li>
                 <li><a href="{{ URL::to('/formulaire') }}">Formulaire</a></li>
+                <li><a href="{{ URL::to('/register') }}">Registrer</a></li>
+                <li><a href="{{ URL::to('/login') }}">Se connecter</a></li>
             </ul>
         </nav>
     </div>
